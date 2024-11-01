@@ -1,0 +1,62 @@
+Name    Location  Year  Price
+0  Hyundai Creta 1.6 CRDi SX Option        Pune  2015  12.50
+1                      Honda Jazz V     Chennai  2011   4.50
+2                 Maruti Ertiga VDI     Chennai  2012   6.00
+3   Audi A4 New 2.0 TDI Multitronic  Coimbatore  2013  17.74
+4            Nissan Micra Diesel XV      Jaipur  2013   3.50
+    Unnamed: 0                               Name    Location  Year  \
+0            1   Hyundai Creta 1.6 CRDi SX Option        Pune  2015   
+3            4    Audi A4 New 2.0 TDI Multitronic  Coimbatore  2013   
+5            7  Toyota Innova Crysta 2.8 GX AT 8S      Mumbai  2016   
+11          13   Land Rover Range Rover 2.2L Pure       Delhi  2014   
+12          14     Land Rover Freelander 2 TD4 SE        Pune  2012   
+
+    Kilometers_Driven Owner_Type  Mileage  Engine  Power  Seats  Price  \
+0               41000      First    19.67  1582.0  126.2    5.0  12.50   
+3               40670     Second    15.20  1968.0  140.8    5.0  17.74   
+5               36000      First    11.36  2755.0  171.5    8.0  17.50   
+11              72000      First    12.70  2179.0  187.7    5.0  27.00   
+12              85000     Second     0.00  2179.0  115.0    5.0  17.50   
+
+    Fuel_Type_Electric  Fuel_Type_Petrol  Transmission_Manual  Car_Age  
+0                    0                 0                    1        9  
+3                    0                 0                    0       11  
+5                    0                 0                    0        8  
+11                   0                 0                    0       10  
+12                   0                 0                    0       12  
+Index(['Unnamed: 0', 'Name', 'Location', 'Year', 'Km_Driven', 'Owner_Type',
+       'Mileage', 'Engine', 'Power', 'Seats', 'Price', 'Fuel_Type_Electric',
+       'Fuel_Type_Petrol', 'Transmission_Manual', 'Car_Age'],
+      dtype='object')
+   Year  Car_Age
+0  2015        9
+1  2011       13
+2  2012       12
+3  2013       11
+4  2013       11
+      Unnamed: 0                                         Name    Location  \
+3952        4079  Land Rover Range Rover 3.0 Diesel LWB Vogue   Hyderabad   
+5620        5781                   Lamborghini Gallardo Coupe       Delhi   
+5752        5919                       Jaguar F Type 5.0 V8 S   Hyderabad   
+1457        1505              Land Rover Range Rover Sport SE       Kochi   
+1917        1974                           BMW 7 Series 740Li  Coimbatore   
+
+      Year  Km_Driven Owner_Type  Mileage  Engine  Power  Seats   Price  \
+3952  2017      25000      First    13.33  2993.0  255.0    5.0  160.00   
+5620  2011       6500      Third     6.40  5204.0  560.0    2.0  120.00   
+5752  2015       8000      First    12.50  5000.0  488.1    2.0  100.00   
+1457  2019      26013      First    12.65  2993.0  255.0    5.0   97.07   
+1917  2018      28060      First    12.05  2979.0  320.0    5.0   93.67   
+
+      Fuel_Type_Electric  Fuel_Type_Petrol  Transmission_Manual  Car_Age  
+3952                   0                 0                    0        7  
+5620                   0                 1                    0       13  
+5752                   0                 1                    0        9  
+1457                   0                 0                    0        5  
+1917                   0                 1                    0        6  
+     Location  Average_Price
+0   Ahmedabad       8.567248
+1   Bangalore      13.482670
+2     Chennai       7.958340
+3  Coimbatore      15.160206
+4       Delhi       9.881944
